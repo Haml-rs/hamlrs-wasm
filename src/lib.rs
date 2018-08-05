@@ -8,3 +8,8 @@ extern crate haml;
 pub fn to_html(haml: &str) -> String {
     haml::to_html(haml)
 }
+
+#[wasm_bindgen]
+pub fn to_ast(haml: &str) -> String {
+    haml::to_ast(haml)
+}
