@@ -1,5 +1,5 @@
 # Hamlrs-wasm
-![Travis CI Build Status](https://travis-ci.org/jhartwell/haml-rs.svg?branch=master)
+![Travis CI Build Status](https://travis-ci.org/Haml-rs/hamlrs-wasm.svg?branch=master)
 
 This is the webassembly project for [Haml-rs](https://github.com/Haml-rs/haml-rs).
 
