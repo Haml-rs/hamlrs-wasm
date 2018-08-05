@@ -11,4 +11,4 @@ deploy:
     secure: jI/aQFVlzJo/P4l/tiB94dYpHiwaWCrPLrbDDSKajTfxg+6f5V99XGicc3OyJk7echw6so4FHaVef5kbxKjq28nDplAA2YiBTVIpyrypuEBmGXQm8/vNFFanoGwzdfgv//V4qBkuM0frAooMPFnAL+XDYdr4H2tOzRjapqR6NA0kqSQroleIb9EA/Ckl77YS4f+8bI1JYKjue/4sqrIaGyxDCMkJ1bH6Mdt03aLQB3eCW3z5CaXd9+pDaXrR1LyY6uBc0OUylyKDRVKYkvoqiq1FuvBcRKcUItZyMNCMhIC//9lQ6urfbS0tmYO+CnRhRydk6GCFnaf2UAGLPnvSccWum4/lI2CTZ8Hzu9Z9W5PcBaDH3NyFuxRDWSsRKZv+/B+lOmZZ1MaBI5oXWEd0oJ4XHqACi3lb8mepo3IbJRKC5WYHkmXXR6UgaR3//byiyUhZkXyqWsQO/7iemNElRCKORtviCsBrjdkFTLWEMug/X9TMLtNeKXhY5bOJxT2Ou2rqQ3YJy9CtcHFPwpF5nS4rjBCGIyW4l1eSF4dFif34pxuc+6zylXvyf90tnG4WDsekOdfi/bj0gSjs8fS0W39+BbI2Zo1RFKkWqCAPRuDQnBxj4bixY/r4XoKsvLxPRdZvaNi4Uso1O+0QtlGrw2ds0bSHkjwewNAgmz5KLLY=
   file: target/wasm32-unknown-unknown/release/hamlrs.wasm
   on:
-    repo: Haml-rs/hamlrs-wasm
+    tags: true
