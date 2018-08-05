@@ -1,0 +1,19 @@
+[package]
+name = "hamlrs-wasm"
+version = "0.1.0"
+authors = ["Jon Hartwell <jon@dontbreakthebuild.com>"]
+license = "MIT"
+description = "A WASM library for [Haml](http://haml.info) templates into HTML"
+respository = "https://github.com/jhartwell/haml-rs"
+keywords = ["haml", "templating", "template"]
+categories = ["webassembly", "wasm", "parser-implementations", "template-engine"]
+readme = "README.md"
+maintenance = { status = "actively-developed" }
+
+[lib]
+crate-type = ["cdylib"]
+name = "hamlrs"
+
+[dependencies]
+hamlrs = "0.3.0"
+wasm-bindgen = "0.2"

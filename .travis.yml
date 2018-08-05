@@ -1,0 +1,7 @@
+language: rust
+rust:
+- nightly
+
+matrix:
+  include:
+  - env: TARGET=wasm32-unknown-unknown
