@@ -4,6 +4,10 @@ rust:
 matrix:
   include:
   - env: TARGET=wasm32-unknown-unknown
+
+before_deploy:
+  - cargo build --target wasm32-unknown-unknown --release
+
 deploy:
   skip_cleanup: true
   provider: releases
